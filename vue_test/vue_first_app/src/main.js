@@ -2,9 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 
 /* eslint-disable no-new */
-new Vue({
+var vm = new Vue({
   el: 'body',
   components: { App },
 })
-console.log(App);
-

@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <hello></hello>
-    <world></world>
+    <!--<world></world>-->
+    <List></List>
   </div>
 </template>
 <script>
 import Hello from './components/Hello.vue'
-import World from './components/world.vue'
+//import World from './components/world.vue'
+import List from './components/List.vue'
 
 export default {
   components: {
     Hello,
-    World
+    List
   },
 }
 </script>
