@@ -2,7 +2,7 @@
   <div id="app">
     <hello></hello>
     <!--<world></world>-->
-    <List></List>
+    <list></list>
   </div>
 </template>
 <script>

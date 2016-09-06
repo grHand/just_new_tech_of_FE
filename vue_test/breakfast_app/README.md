@@ -1,6 +1,6 @@
-# vue_first_app
+# breakfast_app
 
-> A Vue.js project with Browserify
+> A breakfast app
 
 ## Build Setup
 

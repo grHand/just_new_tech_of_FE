@@ -1,6 +1,6 @@
 # vue_second_app
 
-> A vue.js Project on webpack
+> A vue.js Project with webpack
 
 ## Build Setup
 
