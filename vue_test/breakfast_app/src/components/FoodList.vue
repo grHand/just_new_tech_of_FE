@@ -23,6 +23,15 @@
                 ]
             }
         },
+        created: function(){
+            this.foodlist = [
+                { 'foodname' : 'food1' , 'state' : true },
+                { 'foodname' : 'food2' , 'state' : false },
+                { 'foodname' : 'food3' , 'state' : false },
+                { 'foodname' : 'food4' , 'state' : false },
+                { 'foodname' : 'food5' , 'state' : false },
+            ]
+        },
         route: {
             data({ to }){
                 //console.log(to);

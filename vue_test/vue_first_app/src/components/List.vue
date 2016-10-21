@@ -28,7 +28,7 @@
         },
         methods: {
             show: function(){
-                store.getList(3).then(data => {
+                store.getList(6).then(data => {
                     this.lists = data;
                 }).catch(error => {
                     console.log(error);

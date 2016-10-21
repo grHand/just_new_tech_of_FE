@@ -9,7 +9,7 @@ export default store
 
 store.getList = ( count ) =>{
     return new Promise((resolve, reject) => {
-        $.get('http://127.0.0.1:3000/getlist', data => {
+        $.get('/getlist', data => {
             if(data.lists.length<=0){
                 reject('数据为空！！');
             }else{
